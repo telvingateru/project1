@@ -1,0 +1,46 @@
+.myheading{
+    color: #0b5fcc;
+    font-size: 40px;
+    background-color: #cb2027;
+}
+#three{
+    color: #cb2027;
+}
+.first{
+    background-color: #0b5fcc;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.test{
+    display: flex;
+    background-color: #0B2239;
+    padding: 20px;
+}
+.p1{
+    margin-left: 40px;
+}
+#heading\ 2{
+    color: #cb2027;
+    background-color: #0a2f29;
+    font-family: "cursive";
+    font-size: larger;
+}
+.four{
+    color: #ffb229;
+    background-color: #424242;
+}
+.Main{
+    display: flex;
+}
+.d1{
+    background-color: #cb2027
+}
+.d2{
+    background-color: #081006
+}
+.d3{
+    background-color: #817f8c
+}

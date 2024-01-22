@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="FORM.css">
+
+    <title>Students Form</title>
+</head>
+<body>
+
+<form action="">
+    <legend>STUDENTS INFORMATION</legend>
+    <br>
+    <label for="fname">Firstname :</label>
+    <input type="text" id="fname" placeholder="firstname" required="required">
+    <br><br>
+
+    <label for="sname">Surname :</label>
+    <input type="text" id="sname" placeholder="surname" required="required">
+    <br><br>
+
+     <label for="email">Email address :</label>
+    <input type="email" id="email" placeholder="abc@gmail.com" required="required">
+    <br><br>
+
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" placeholder="Type your password. "required="required">
+    <br><br>
+    
+    <p>Choose a programming language :</p>
+    <input type="radio" id="python">
+    <label for="python">python</label><br>
+    <input type="radio" id="php">
+    <label for="php">PHP</label> <br>
+    <input type="radio" id="java">
+    <label for="java">Java</label><br>
+
+    <p>Choose your favorite game</p>
+    <input type="checkbox" id="football">
+    <label for="football">Football</label><br>
+    <input type="checkbox" id="tennis">
+    <label for="tennis">Tennis</label>br
+    <input type="checkbox" id="hockey">
+    <label for="hockey">Hockey</label><br>
+    <input type="checkbox" id="chess">
+    <label for="chess">Chess</label><br>
+    <input type="checkbox" id="basketball">
+    <label for="basketball">Basketball</label><br><br>
+
+    <label for="nationality">Nationality</label>
+    <select id="nationality">
+        <option value="choose" disabled="disabled">--Choose nationality</option>
+        <option value="Kenyan">Kenyan</option>
+        <option value="Ugandan">Ugandan</option>
+        <option value="Tanzanian">Tanzanian</option>
+        <option value="Australian">Australian</option>
+    </select><br><br>
+
+    <label for="file">choose a file</label>
+    <input type="file" id="file" required="required">
+    <br><br>
+    
+    <label for="yob">Year of birth :</label>
+    <input type="date" id="yob" required="required">
+    <br><br>
+
+    <label for="person">Describe yourself</label><br>
+    <textarea name="" id="person" placeholder="Type here..." cols="40" rows="5"></textarea>
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+
+
+</form>
+
+</body>
+</html>
